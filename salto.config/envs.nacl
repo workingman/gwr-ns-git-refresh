@@ -1,4 +1,10 @@
 envs {
   envs = [
+    {
+      name = "gwr-s-ns-prod139"
+      accountToServiceName = {
+        netsuite = "netsuite"
+      }
+    },
   ]
 }
