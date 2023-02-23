@@ -1023,28 +1023,8 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
               MIDDLE = {
                 position = "MIDDLE"
                 field = {
-                  custbody_aw_edit = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_edit.scriptid
-                    label = "GWR Amp Edit - WA"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 0
-                  }
-                  custbody_aw_first_lvl_approval = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_first_lvl_approval.scriptid
-                    label = "GWR Amp 1st Level Approval"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 1
-                  }
+                  
+                  
                   custbody_aw_second_lvl_approval = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_aw_second_lvl_approval.scriptid
                     label = "GWR Amp 2nd Level Approval"
@@ -1054,7 +1034,7 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
                     columnBreak = false
                     sameRowAsPrevious = false
                     checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 2
+                    index = 0
                   }
                 }
                 index = 0
@@ -1400,8 +1380,8 @@ netsuite.transactionForm custform_gwr_vendor_bill_form {
   emailMessageTemplate = "USE_DEFAULT"
   printingType = {
     advanced = {
-      printTemplate = netsuite.advancedpdftemplate.instance.custtmpl_gwr_defunct1.scriptid
-      emailTemplate = netsuite.advancedpdftemplate.instance.custtmpl_gwr_defunct1.scriptid
+      printTemplate = "[scriptid=custtmpl_gwr_defunct1]"
+      emailTemplate = "[scriptid=custtmpl_gwr_defunct1]"
     }
   }
   linkedForms = {

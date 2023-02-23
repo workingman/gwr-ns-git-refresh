@@ -1369,28 +1369,8 @@ netsuite.transactionForm custformsalto_cash_refund_form {
               MIDDLE = {
                 position = "MIDDLE"
                 field = {
-                  custbody_aw_edit = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_edit.scriptid
-                    label = "GWR Amp Edit - WA"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 0
-                  }
-                  custbody_aw_first_lvl_approval = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_first_lvl_approval.scriptid
-                    label = "GWR Amp 1st Level Approval"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 1
-                  }
+                  
+                  
                   custbody_aw_second_lvl_approval = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_aw_second_lvl_approval.scriptid
                     label = "GWR Amp 2nd Level Approval"
@@ -1400,7 +1380,7 @@ netsuite.transactionForm custformsalto_cash_refund_form {
                     columnBreak = false
                     sameRowAsPrevious = false
                     checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 2
+                    index = 0
                   }
                 }
                 index = 0
