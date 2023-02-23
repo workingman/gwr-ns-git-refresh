@@ -1,0 +1,5 @@
+workspace {
+  uid = "a5500e3d-bf53-4dac-a501-27c48be69967"
+  name = "gwr-ns-git-refresh"
+  staleStateThresholdMinutes = undefined
+}
